@@ -1,0 +1,174 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+ 
+}
+
+
+    
+.container {
+  margin-left: auto;
+  margin-right: auto;
+width: 1200px;
+padding: 0 15px;
+
+}
+    
+    h1,
+    
+    h2,
+    
+    h3,
+    
+    h4,
+    
+    h5,
+    
+    h6,
+    
+    p,
+    
+    ul {
+    
+      margin-top: 0;
+    
+      margin-bottom: 0;
+    
+    }
+    
+    ul {
+    
+      padding-left: 0;
+    
+      padding-right: 0;
+    
+      list-style: none;
+    
+    }
+    
+    a {
+    
+      text-decoration: none;
+      color: inherit;
+    
+    }
+    
+     
+    
+    img{
+    
+      max-width: 100%;
+    
+      display: block;
+    
+      height: auto;
+    
+    }
+
+    button{
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+    
+
+
+.header{
+position: absolute;
+width: 100%;
+padding: 30px 0;
+}
+
+
+
+    .header-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+
+
+
+    .logo-link{
+        display: flex;
+        align-items: center;
+    position: relative;
+    }
+
+.logo-link img{
+    margin-right: 10px;
+}
+
+
+   .logo-text{
+    position: absolute;
+    right: 0;
+   }
+
+   .nav-list{
+    display: flex;
+   }
+
+   .nav-list__item:not(:last-child){
+margin-right: 20px;
+   }
+
+   .login-list{
+    display: flex;
+   }
+   .login-list__item:first-child{
+    margin-right: 20px;
+   }
+
+
+   /* HERO */
+   
+   .hero{
+
+    background-color: #EAF7F6;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: 340px;
+
+   }
+
+
+.hero__container{
+    position: relative;
+}
+
+.window{
+   
+
+}
+
+.window-wrap{
+    border-radius: 120px;
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    overflow: hidden;
+    border:solid 10px white;
+}
+
+   .hero__title{
+    width: 585px;
+    font-weight: 700;
+    font-size: 50px;
+   }
+
+
+   
+
+
+
+   /* Як вставляється таке вікно?? */
+   /* це фон чи ні  */
+   /* Як зробити такий фон, щоб він не іздив? */
